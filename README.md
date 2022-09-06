@@ -2,13 +2,13 @@
 
 **GitHub** is a code hosting platform for version control and collaboration. It’s designed around Git, a system for tracking changes in software code. It lets you and others work together on projects from anywhere. In this article, we’ll take a look at the key concepts of the GitHub development workflow for those in tech including working with repositories, branches, forks, commits, pull requests, and merging. Let’s get started!
 
-## [](https://dev.to/rembertdesigns/a-web-developers-workflow-for-github-1b72#what-is-version-control)What is version control?
+## What is version control?
 
 _Version control is a system that helps developers track and manage changes to a software projects' code_. As projects grow, the need for version control becomes vital — especially in a collaborative project. We can work safely by using what's known as **branching** and **merging**.
 
 **Branching** allows us to duplicate our source code (aka ‘the repository’), so we can safely make changes without affecting the entire project. Once the changes have been reviewed and approval is agreed upon, we merge our branch into the master to update our official code. If any bugs are identified— we have the option to revert back to our original code, as our changes have been tracked.
 
-## [](https://dev.to/rembertdesigns/a-web-developers-workflow-for-github-1b72#what-is-git)What is Git?
+## What is Git?
 
 Git and Github are not synonymous! Git is a specific open-source version control system created by [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds) in 2005. It’s the program that actually tracks your changes, and ensures the entire code-base is available on each developer's computer. GitHub however, is simply hosting your repositories (as well as providing some additional functionality).
 
@@ -106,7 +106,7 @@ A pull request is where we share our proposed project changes with our team — 
 6. Add an accurate description of the changes you made
 7. Click Create pull request!
 
-Your team members now have the ability to discuss and review your proposed changes. Once everyone is happy and the changes are approved— it’s time to merge to `master`.
+Your team members now have the ability to discuss and review your proposed changes. Once everyone is happy and the changes are approved— it’s time to merge to `main`.
 
 Note: If you forked a repo and made changes, you can create a pull request to merge your changes from there as well.
 
@@ -137,7 +137,9 @@ Note: Before pushing the code from VSCode to GitHub, you need to ensure that all
 **Step 1**: Open your Github Account. And click on “Your Repository.”  
 
 [![GitHub Repository](https://res.cloudinary.com/practicaldev/image/fetch/s--J8NBYXmT--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ny1ttfqbxy9gq4cqek79.png)](https://res.cloudinary.com/practicaldev/image/fetch/s--J8NBYXmT--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ny1ttfqbxy9gq4cqek79.png)  
+
 **Step 2**: If you have an existing repository, then open that repository; otherwise, click on the “new” button to create a repository.  
+
 [![New GitHub Repository](https://res.cloudinary.com/practicaldev/image/fetch/s--MSqm0QdZ--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/l7ps6pvaiufwrpgq8y76.png)](https://res.cloudinary.com/practicaldev/image/fetch/s--MSqm0QdZ--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/l7ps6pvaiufwrpgq8y76.png)  
 **Step 3**: Enter the name and description (optional) for the repository. Then check the private or public Repository box according to the requirement. Select the checkbox if you want to initialize the repository with a README.
 
@@ -166,3 +168,7 @@ Note: Before pushing the code from VSCode to GitHub, you need to ensure that all
 **Step 10**: If you’re pushing the code for the first time, it will show you a popup to log in on Github. So Enter your Github account credentials and click on “log in.”
 
 The code is now successfully delivered to Github from VSCode. To check if the project transferred successfully, go to the repository, and you can see all the data.
+
+### Contributors
+
+@leogopal
